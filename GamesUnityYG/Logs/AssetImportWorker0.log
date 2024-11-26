@@ -1,0 +1,1621 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.26f1 (ccb7c73d2c02) revision 13416391'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/JurgenKV/RiderProjects/GamesYG/GamesUnityYG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53017
+-job-worker-count
+2
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/JurgenKV/RiderProjects/GamesYG/GamesUnityYG
+C:/Users/JurgenKV/RiderProjects/GamesYG/GamesUnityYG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1172]  Target information:
+
+Player connection [1172]  * "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1505785612 [EditorId] 1505785612 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9NJ07EQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 2
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/JurgenKV/RiderProjects/GamesYG/GamesUnityYG/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8067 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003170 seconds.
+- Loaded All Assemblies, in  0.389 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 179 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 919ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (264ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.008 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1922ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (193ms)
+			BuildScriptInfoCaches (88ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (915ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (664ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6513 unused Assets / (4.5 MB). Loaded Objects now: 7293.
+Memory consumption went from 193.7 MB to 189.2 MB.
+Total: 9.078400 ms (FindLiveObjects: 0.733900 ms CreateObjectMapping: 1.052800 ms MarkObjects: 4.840900 ms  DeleteObjects: 2.449900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4677.982866 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.004606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008919 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2762b8c082b0191418fb1f9a84e91f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2762b8c082b0191418fb1f9a84e91f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aab45875f094d8165070481735b51eb') in 0.0007019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6501 unused Assets / (4.5 MB). Loaded Objects now: 7296.
+Memory consumption went from 159.9 MB to 155.4 MB.
+Total: 10.208100 ms (FindLiveObjects: 0.778400 ms CreateObjectMapping: 1.309200 ms MarkObjects: 5.219300 ms  DeleteObjects: 2.900500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.773964 seconds.
+  path: Assets/Scripts/InitPlugin.cs
+  artifactKey: Guid(82a9fa95dfdb63c4aa967e8bb5099c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InitPlugin.cs using Guid(82a9fa95dfdb63c4aa967e8bb5099c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c721dc272c90d960fc849248ad540787') in 0.0134148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.076 seconds
+Domain Reload Profiling: 1881ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (236ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6512 unused Assets / (4.2 MB). Loaded Objects now: 7299.
+Memory consumption went from 163.0 MB to 158.8 MB.
+Total: 28.062900 ms (FindLiveObjects: 2.520600 ms CreateObjectMapping: 3.332200 ms MarkObjects: 16.911600 ms  DeleteObjects: 5.296300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.279209 seconds.
+  path: Assets/Scripts/InitPlugin.cs
+  artifactKey: Guid(82a9fa95dfdb63c4aa967e8bb5099c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InitPlugin.cs using Guid(82a9fa95dfdb63c4aa967e8bb5099c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '827216190a1190217a5cff1565b1efe9') in 0.0190521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.850 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 1824ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6512 unused Assets / (4.3 MB). Loaded Objects now: 7301.
+Memory consumption went from 163.0 MB to 158.7 MB.
+Total: 9.410100 ms (FindLiveObjects: 0.773200 ms CreateObjectMapping: 1.121600 ms MarkObjects: 5.115700 ms  DeleteObjects: 2.398000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+DisplayProgressbar: PluginYG2 first startup
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 1829ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (662ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6588 unused Assets / (4.6 MB). Loaded Objects now: 7377.
+Memory consumption went from 163.3 MB to 158.8 MB.
+Total: 9.986500 ms (FindLiveObjects: 0.764200 ms CreateObjectMapping: 1.213600 ms MarkObjects: 5.364500 ms  DeleteObjects: 2.643200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.957 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.165 seconds
+Domain Reload Profiling: 6123ms
+	BeginReloadAssembly (2742ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (364ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (513ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1603ms)
+		LoadAssemblies (2110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (780ms)
+			TypeCache.Refresh (532ms)
+				TypeCache.ScanAssembly (494ms)
+			BuildScriptInfoCaches (226ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (712ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (563ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6588 unused Assets / (4.4 MB). Loaded Objects now: 7380.
+Memory consumption went from 163.5 MB to 159.1 MB.
+Total: 10.580100 ms (FindLiveObjects: 1.170400 ms CreateObjectMapping: 1.326600 ms MarkObjects: 5.153800 ms  DeleteObjects: 2.928700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.097 seconds
+Domain Reload Profiling: 1864ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (229ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1097ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6588 unused Assets / (4.3 MB). Loaded Objects now: 7382.
+Memory consumption went from 163.4 MB to 159.1 MB.
+Total: 11.476100 ms (FindLiveObjects: 0.838000 ms CreateObjectMapping: 1.433200 ms MarkObjects: 6.133000 ms  DeleteObjects: 3.070800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 369.066049 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset
+  artifactKey: Guid(c2a303d33a9fd394bae4c4b88b9a1c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset using Guid(c2a303d33a9fd394bae4c4b88b9a1c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db938032d160f05bfc78d376ab6e29b2') in 0.0533272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.381946 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset
+  artifactKey: Guid(c2a303d33a9fd394bae4c4b88b9a1c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset using Guid(c2a303d33a9fd394bae4c4b88b9a1c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a69b086927d0fda33cd7989ca6affe8') in 0.0009382 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.989 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.969 seconds
+Domain Reload Profiling: 4963ms
+	BeginReloadAssembly (1342ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (55ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (309ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1529ms)
+		LoadAssemblies (1167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1146ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (897ms)
+			ResolveRequiredComponents (61ms)
+	FinalizeReload (1969ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (374ms)
+			ProcessInitializeOnLoadAttributes (1088ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6588 unused Assets / (4.6 MB). Loaded Objects now: 7386.
+Memory consumption went from 163.4 MB to 158.9 MB.
+Total: 13.617600 ms (FindLiveObjects: 1.139100 ms CreateObjectMapping: 2.362100 ms MarkObjects: 6.352200 ms  DeleteObjects: 3.762600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (2.2 MB). Loaded Objects now: 7386.
+Memory consumption went from 157.1 MB to 154.9 MB.
+Total: 6.395000 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.359800 ms MarkObjects: 5.024000 ms  DeleteObjects: 0.536800 ms)
+
+Prepare: number of updated asset objects reloaded= 155
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 20, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 2048 -> 4
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (2.2 MB). Loaded Objects now: 7386.
+Memory consumption went from 156.6 MB to 154.4 MB.
+Total: 200.295500 ms (FindLiveObjects: 0.923800 ms CreateObjectMapping: 170.042800 ms MarkObjects: 27.719300 ms  DeleteObjects: 1.607200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 127.913503 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58d9069ff65db8cd1bd64d0347918580') in 2.7374408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture
+  artifactKey: Guid(4d24706698c829a46a56d8fa7d7b21c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture using Guid(4d24706698c829a46a56d8fa7d7b21c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5266bfd371c4f2805d7b0b0edcddc9a') in 0.0271014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/GameReadyAPI.cs
+  artifactKey: Guid(04f9300369bca8e4fb9985e7ab849925) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/GameReadyAPI.cs using Guid(04f9300369bca8e4fb9985e7ab849925) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63cb23294242a755cbcd04e8d1c30f66') in 0.009397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/Build Profiles/New Web Profile.asset
+  artifactKey: Guid(2a479aa356fd22746b5f7250281c6786) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Build Profiles/New Web Profile.asset using Guid(2a479aa356fd22746b5f7250281c6786) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd923eb2c7afb74f40f10884f91796e57') in 0.048286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1131d8d333adeb5621c0a5bad8cb1329') in 0.0348932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/EventsYG2.cs
+  artifactKey: Guid(341f31e995335eb49bcb5f79b009a4cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/EventsYG2.cs using Guid(341f31e995335eb49bcb5f79b009a4cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8202f525ba33bcecf13bac9bc8d5cc1') in 0.0096712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/InfoYG_lang.cs
+  artifactKey: Guid(550ab6015377cf948b84f0d378f8694a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/InfoYG_lang.cs using Guid(550ab6015377cf948b84f0d378f8694a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee6ce88e6f201b498b7113548cbbc60c') in 0.0039713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/CommonOptions.cs
+  artifactKey: Guid(3d6436dfada3ed64786349523282e5b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/CommonOptions.cs using Guid(3d6436dfada3ed64786349523282e5b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd91eab081cfe8fe44c1f0122d1cece67') in 0.0042875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PluginYourGames/Example/Content/Materials/DebugViewing.mat
+  artifactKey: Guid(59cd650ae9babe14191840056255cd7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Content/Materials/DebugViewing.mat using Guid(59cd650ae9babe14191840056255cd7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76706a60af62d9d062d02bfa14d3b215') in 0.0854724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/BasicData.cs
+  artifactKey: Guid(4dbfa4270a13bad4991ff375f39e8175) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/BasicData.cs using Guid(4dbfa4270a13bad4991ff375f39e8175) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1c4c45ec1103aa29d75295e47425aa7') in 0.0040713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Resources/SettingsYG2.asset
+  artifactKey: Guid(026488b13f24f7941b8517195c40ee1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Resources/SettingsYG2.asset using Guid(026488b13f24f7941b8517195c40ee1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee30a6b855cdbea3c6c910ca592ce099') in 0.0089065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/PauseGameYG.cs
+  artifactKey: Guid(7a5b227a20855044e9f75626696e0719) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/PauseGameYG.cs using Guid(7a5b227a20855044e9f75626696e0719) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85bb6d75a859b4c3400f84810cd95654') in 0.0032596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs
+  artifactKey: Guid(81e00845a563cb142aba772859940c67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs using Guid(81e00845a563cb142aba772859940c67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d3dc4e89ced0c49474b88f65a548d98') in 0.0083111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/ImageLoad.png
+  artifactKey: Guid(3e718788f63bb7746b9a7a2be1e8b093) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/ImageLoad.png using Guid(3e718788f63bb7746b9a7a2be1e8b093) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6c8137f2f36bfa345c4e1543863afc0') in 0.0516771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PluginYourGames/Example/Sprites/ButtonTextureYG.png
+  artifactKey: Guid(feff93c1978bc224c93e4d892462632f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Sprites/ButtonTextureYG.png using Guid(feff93c1978bc224c93e4d892462632f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23a9e156e1a1ae4ada9446abaf758c5d') in 0.0185312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/ImageLoadYG.cs
+  artifactKey: Guid(e48d8d781d3e59d409adef5e128d2b04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/ImageLoadYG.cs using Guid(e48d8d781d3e59d409adef5e128d2b04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac3903e8c7fe79cbbeedaca31b032bbc') in 0.0044236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/IconPluginYG2.png
+  artifactKey: Guid(10f7f7cc7c7dde5479b2ae90ac584f83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/IconPluginYG2.png using Guid(10f7f7cc7c7dde5479b2ae90ac584f83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3fa1e7227790389fa259601b76cf31d') in 0.0085874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/OptionalPlatform.cs
+  artifactKey: Guid(9ae5b3d9e574b4841a43e6207b38ae6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/OptionalPlatform.cs using Guid(9ae5b3d9e574b4841a43e6207b38ae6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5246dcf4e0c01a81521af0aafc822dc5') in 0.0054395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Example/Content/Font/Disket-Mono-Regular.ttf
+  artifactKey: Guid(4b10251d8d1a40c4d97edcf51fc6b4ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Content/Font/Disket-Mono-Regular.ttf using Guid(4b10251d8d1a40c4d97edcf51fc6b4ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bc3371af766ea06df82c7b9213e3277') in 0.0554425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/ServerInfo.cs
+  artifactKey: Guid(5acdd59b28c09074d82c790ebf21da4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/ServerInfo.cs using Guid(5acdd59b28c09074d82c790ebf21da4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6ea330081bbc0186a590f9ec8efcd86') in 0.0033508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Attributes/ColorYGAttribute.cs
+  artifactKey: Guid(0f8729b41e2efa246994c797d974121f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Attributes/ColorYGAttribute.cs using Guid(0f8729b41e2efa246994c797d974121f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55b845ebe1492256cc72bf35312ea530') in 0.0042243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f605576addb02a02ab772450aac51db') in 0.0811813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ProgressBar_build.cs
+  artifactKey: Guid(0983f3cd77ac07e4f9fb2ac4a57e47fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ProgressBar_build.cs using Guid(0983f3cd77ac07e4f9fb2ac4a57e47fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b07d349cd859ace797adc09ba4bbe698') in 0.0215958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio.css
+  artifactKey: Guid(907da86e09030dd49840952a7f5b5c58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio.css using Guid(907da86e09030dd49840952a7f5b5c58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9ba0f632e3b81fcd552c6099b0f93d8') in 0.0269577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ColorProgressBar.css
+  artifactKey: Guid(b75ca0e15c0fddc40bcb906b38bf1a32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/ColorProgressBar.css using Guid(b75ca0e15c0fddc40bcb906b38bf1a32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ac4c24f77bcc58c1c2a45a6dd76e9cf') in 0.0040005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.css
+  artifactKey: Guid(98c8ce0a1aa939b4cabbb7f145b166f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.css using Guid(98c8ce0a1aa939b4cabbb7f145b166f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08dc4f91a99aa7c411052a8f7e80c501') in 0.0195243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WebGLTemplates/YandexGames/thumbnail.png
+  artifactKey: Guid(a73a57e687d5ff3448092abc2a5a8fa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/YandexGames/thumbnail.png using Guid(a73a57e687d5ff3448092abc2a5a8fa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c48aff676a382494603d21cec33fc58') in 0.0069558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/Editor/PlatformEventsYG2Editor.cs
+  artifactKey: Guid(4cd9c6683e7f1c543b3d1cef79dd409a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/Editor/PlatformEventsYG2Editor.cs using Guid(4cd9c6683e7f1c543b3d1cef79dd409a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '096367b691af526044c977b860c8239e') in 0.0120668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Debugging.png
+  artifactKey: Guid(ca9ddac883dacb940a7630c22981f4ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Debugging.png using Guid(ca9ddac883dacb940a7630c22981f4ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a1bf564dc98aca87f9ef1c9b0393ce3') in 0.0090605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/UnityPackagesManager.cs
+  artifactKey: Guid(315de095dfb077049838fd758912a3d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/UnityPackagesManager.cs using Guid(315de095dfb077049838fd758912a3d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c45ce0645ae0dd35412edd8b8092a0') in 0.004137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PluginYourGames/Example/Content/Font/COPYRIGHT.txt
+  artifactKey: Guid(6224b58d3925a6f49a386353c793459d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Content/Font/COPYRIGHT.txt using Guid(6224b58d3925a6f49a386353c793459d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9b850991e1ec01e194e9ddc7666f10b') in 0.0043335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/ServerJson.cs
+  artifactKey: Guid(92f3b5a16d7dbf44380543f61798efc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/ServerJson.cs using Guid(92f3b5a16d7dbf44380543f61798efc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '889038c7cd72dbe2f075bc71f38ba211') in 0.0042044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/TemplateSettings.cs
+  artifactKey: Guid(c40b2a66782f40c4da4becd38eacf374) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/TemplateSettings.cs using Guid(c40b2a66782f40c4da4becd38eacf374) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa0798eee59e5593d887c3c221beadb9') in 0.0058265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/LICENSE.txt
+  artifactKey: Guid(fc38d33b0ee6c02429764db4573b3d4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/LICENSE.txt using Guid(fc38d33b0ee6c02429764db4573b3d4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec5473532c1b376507f698f7179f0680') in 0.0082148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.js
+  artifactKey: Guid(373d920eece5e8c44919724351e9fae1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.js using Guid(373d920eece5e8c44919724351e9fae1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56418a6c44be990fe3b99fb57b5a23d0') in 0.0037165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/CanvasScaleForMobile.cs
+  artifactKey: Guid(1a65bc4458b62b14b87ebcf8f8c1080f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/CanvasScaleForMobile.cs using Guid(1a65bc4458b62b14b87ebcf8f8c1080f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46ac1646d738a1bc9ea574bd1f6e34a8') in 0.00917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformSettingsAttributes.cs
+  artifactKey: Guid(7f2699cd57d58e34cbbad7db24c5314d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformSettingsAttributes.cs using Guid(7f2699cd57d58e34cbbad7db24c5314d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd997f4ec489eabcc7db78bb3449a861') in 0.0052794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Translates/VersionControl_lang.cs
+  artifactKey: Guid(821877fe6e984ec4cb856c666c99eecf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Translates/VersionControl_lang.cs using Guid(821877fe6e984ec4cb856c666c99eecf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2e894fcfa383f52ba17186f9a4871e1') in 0.0040065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.html
+  artifactKey: Guid(16c26d9eef5c2b648abd344b443a855d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.html using Guid(16c26d9eef5c2b648abd344b443a855d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15410c6a23e09ec68287831a3e7b325a') in 0.0044992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/YG2.cs
+  artifactKey: Guid(e131260c28a37ee4db27545c5ac78fb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/YG2.cs using Guid(e131260c28a37ee4db27545c5ac78fb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab269f01d3bfedcda1cb4a786002bdd5') in 0.0065318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformSettings_langs.cs
+  artifactKey: Guid(5ff65f0e5bf379b478042a113eb05908) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformSettings_langs.cs using Guid(5ff65f0e5bf379b478042a113eb05908) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af9eebbef5b0f2c7af174494bc9e3176') in 0.0047311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Platform.png
+  artifactKey: Guid(78704f9de18ec0d40964fd072709ecdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Platform.png using Guid(78704f9de18ec0d40964fd072709ecdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '553a31a722d609041ea29384d5faff65') in 0.0094044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground_build.cs
+  artifactKey: Guid(8254432e64bbfa847b98d375758cf6e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground_build.cs using Guid(8254432e64bbfa847b98d375758cf6e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '808c2ad504afdb92fc92c11b1fb84968') in 0.0088343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ed044c8932f51ec854a70a7216c80d7') in 0.0062175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83911b98e71000b3224e621d3a30fe02') in 0.0049012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/YGInsides.cs
+  artifactKey: Guid(d132807003770694d9429ce118828cfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/YGInsides.cs using Guid(d132807003770694d9429ce118828cfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2c947b9bc2ac6e7d4041e8e79039d91') in 0.0051982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs
+  artifactKey: Guid(35df5d2532a7ef2489a47cf39a04faa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs using Guid(35df5d2532a7ef2489a47cf39a04faa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88dad55d1689eac47be4d05bdf1151fb') in 0.0041069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/TriggerYG.png
+  artifactKey: Guid(5cdf66b22a9c3b24998f68ea17aa3e84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/TriggerYG.png using Guid(5cdf66b22a9c3b24998f68ea17aa3e84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba7f8eb02ba1d3689eaf96ab0461f379') in 0.0081184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/DebugViewing.cs
+  artifactKey: Guid(a21868984234d1445a9f3585607e3804) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/DebugViewing.cs using Guid(a21868984234d1445a9f3585607e3804) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67844baeff04e277651a11a9a3be5ae9') in 0.0034713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/YGEditorStyles.cs
+  artifactKey: Guid(47346d112b91a8f43bd3fc707165d73c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/YGEditorStyles.cs using Guid(47346d112b91a8f43bd3fc707165d73c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4be0711a3200538058c119a4242ad873') in 0.0044591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/Editor/EventsYG2Editor.cs
+  artifactKey: Guid(949508536712641448ccdba85bbbbc20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/Editor/EventsYG2Editor.cs using Guid(949508536712641448ccdba85bbbbc20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a121ec5db58a14b17e769b343b2c0dc5') in 0.0071465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/DemoTextTranslateRU.cs
+  artifactKey: Guid(49e3917306023a649a4effa061700774) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/DemoTextTranslateRU.cs using Guid(49e3917306023a649a4effa061700774) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df3103e63120fe2bc71bf886c79f26b0') in 0.0045867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Version.txt
+  artifactKey: Guid(01e943773b7fe024daf84b056cc4f390) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Version.txt using Guid(01e943773b7fe024daf84b056cc4f390) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb57ea2588fd07c8dfddf32a8f812c28') in 0.00629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel_build.cs
+  artifactKey: Guid(a69a2a0f3a8a53c468179c686d9755a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel_build.cs using Guid(a69a2a0f3a8a53c468179c686d9755a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '526fe25cfe199f4fbc7cba0aa916ac1c') in 0.00373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/FastButton.cs
+  artifactKey: Guid(31586ba38bf3bf142a8bf2eb720e5b59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/FastButton.cs using Guid(31586ba38bf3bf142a8bf2eb720e5b59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b50fa07d2c74d592177815a675f6d0fd') in 0.0044642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/Editor/PlatformSettingsEditor.cs
+  artifactKey: Guid(537f924bb1b9e4d4e93c084383300b14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/Editor/PlatformSettingsEditor.cs using Guid(537f924bb1b9e4d4e93c084383300b14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a02222a1fc71152489f63439274810cb') in 0.0036838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/BackgroundFormat.cs
+  artifactKey: Guid(aad2b8c333346804483bd07aa5d42380) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/BackgroundFormat.cs using Guid(aad2b8c333346804483bd07aa5d42380) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fa5a250bcfa20167ec29676d606c722') in 0.003823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Plugins/YandexGame.jslib
+  artifactKey: Guid(8e24118a2f13f3e40958f8d398d2b692) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Plugins/YandexGame.jslib using Guid(8e24118a2f13f3e40958f8d398d2b692) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b57ea5dceb8ab01911a38c4bc75e3d41') in 0.0086537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/RoundProgressBar.css
+  artifactKey: Guid(1d0c3134d0cd46c4b89869e9dc0058d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/ProgressBar/RoundProgressBar.css using Guid(1d0c3134d0cd46c4b89869e9dc0058d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '069f21c6cc4602f1183b9aa18f2a6c30') in 0.0046392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Version.txt
+  artifactKey: Guid(c843f4e7c77ec6848bc78b65164de94f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Version.txt using Guid(c843f4e7c77ec6848bc78b65164de94f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebbd9811892bc4a82b265c0f509208c4') in 0.0034124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/InfoYG.cs
+  artifactKey: Guid(efa747916aa66674d96ea40ca8a480b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/InfoYG.cs using Guid(efa747916aa66674d96ea40ca8a480b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75623ca005d3151f80d8d44ba8b4d88a') in 0.0075855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/ProjectSettings.cs
+  artifactKey: Guid(a648a6c21e5549240a07a7aff71576e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/ProjectSettings.cs using Guid(a648a6c21e5549240a07a7aff71576e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aef3d5c07dece7e0375e03acb480166') in 0.0238249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/BuildLog.cs
+  artifactKey: Guid(41b17c27a545bc242951b1f605e78ae1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/BuildLog.cs using Guid(41b17c27a545bc242951b1f605e78ae1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a4349a4fea1a62a7019f3b2114a349e') in 0.0040591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/DocumentationEditor.cs
+  artifactKey: Guid(2cb8cfe741ef91e448951fced5e32681) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/DocumentationEditor.cs using Guid(2cb8cfe741ef91e448951fced5e32681) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52e07ba1ffae93cd9419956d4bab2c99') in 0.0053738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs
+  artifactKey: Guid(6c5f334dd83ae0b42b3a3a1ad3b655d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs using Guid(6c5f334dd83ae0b42b3a3a1ad3b655d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ed1fd3cc4f350404e2c2e552ae2a046') in 0.013134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019115 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/InitAttributes.cs
+  artifactKey: Guid(dce0f07b9d839134797a30657aeb48b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/InitAttributes.cs using Guid(dce0f07b9d839134797a30657aeb48b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0efc8b4f35a4eadb9f327dbd24dfc22') in 0.0199956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformSettings.cs
+  artifactKey: Guid(5d228dc2bb257eb43a856395ab5a038b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformSettings.cs using Guid(5d228dc2bb257eb43a856395ab5a038b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b53e04d7bde8bacd34f652fe13ab0c2') in 0.0038445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/Editor/ExampleScenes.cs
+  artifactKey: Guid(211a3010d04ef64448a25f7576d95860) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/Editor/ExampleScenes.cs using Guid(211a3010d04ef64448a25f7576d95860) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47aa4a3a27a9c0fff1505df75184b5af') in 0.0235682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ProcessBuild.cs
+  artifactKey: Guid(c4ce61f13f3e1474682e29f60bb05390) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ProcessBuild.cs using Guid(c4ce61f13f3e1474682e29f60bb05390) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b254bae26c9f74736f5bbb1f5fe1897') in 0.0056268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70538bb44c0b9afca31c9eb3e4584eed') in 0.5760028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PluginYourGames/Scripts/Utils/Plugins/LocalStorage.jslib
+  artifactKey: Guid(3e0ac78106fb48f4da7dc2ddf00eb9d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Utils/Plugins/LocalStorage.jslib using Guid(3e0ac78106fb48f4da7dc2ddf00eb9d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a343c50994b747c70e66c7ce6584797') in 0.0039834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/Editor/Server.cs
+  artifactKey: Guid(1aa4a7bedcbdef648aa151b8159207cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/Editor/Server.cs using Guid(1aa4a7bedcbdef648aa151b8159207cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '137e711357c9bc4fc08796b195c2fe94') in 0.0118529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/ModuleJson.cs
+  artifactKey: Guid(70331bfb5b5be9a42a173b1a4323166f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/ModuleJson.cs using Guid(70331bfb5b5be9a42a173b1a4323166f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28cd0ffb26e3606ce57ad0af38df51cb') in 0.0043939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Third-Party Notices.txt
+  artifactKey: Guid(fc4bfab6e54579742919652139a338e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Third-Party Notices.txt using Guid(fc4bfab6e54579742919652139a338e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18470e2ee96a4981e1a5adf1680bbd91') in 0.0075709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/SimulationSettings.cs
+  artifactKey: Guid(3644aa0f54b8e2743a60f6bef7bf9ed9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/SimulationSettings.cs using Guid(3644aa0f54b8e2743a60f6bef7bf9ed9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40ce5359ae4073afb59c542af91cd193') in 0.0034881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio_build.cs
+  artifactKey: Guid(696aca93f688b2945acff84e4231e282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatio_build.cs using Guid(696aca93f688b2945acff84e4231e282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56de73d2c2ae69028b9013491742e7e0') in 0.0067768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformToggles.cs
+  artifactKey: Guid(b1066bf4e829e1748a687085af7b0109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformToggles.cs using Guid(b1066bf4e829e1748a687085af7b0109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c3a67160eac533f55b94af423a0c739') in 0.004889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/YGSendMessage.cs
+  artifactKey: Guid(10134890f18e21646bea592611585f5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/YGSendMessage.cs using Guid(10134890f18e21646bea592611585f5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9977c7468d93127f89319da1f6f270fb') in 0.0036092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Module.cs
+  artifactKey: Guid(7ead194b6ec91814fb0140f8c18b6cf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Module.cs using Guid(7ead194b6ec91814fb0140f8c18b6cf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4007cadadf366a7679dda01a47e2378') in 0.0091604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/Editor/WelcomeWindow.cs
+  artifactKey: Guid(7d8c82d30195a3e4fb02dfbce08f20c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/Editor/WelcomeWindow.cs using Guid(7d8c82d30195a3e4fb02dfbce08f20c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f2281a81d41b15a9dae79e0925d8b97') in 0.0043416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset
+  artifactKey: Guid(c2a303d33a9fd394bae4c4b88b9a1c44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset using Guid(c2a303d33a9fd394bae4c4b88b9a1c44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50f9535d0b9d046ca0d31df7b76fe24a') in 0.0056891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/CallAction.cs
+  artifactKey: Guid(629bb6c31b5781847bf2f83931f7c7a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/CallAction.cs using Guid(629bb6c31b5781847bf2f83931f7c7a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91e9e02b37dee908779d598e25a6eb49') in 0.0047886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Utils/JsonYG.cs
+  artifactKey: Guid(d49552a7a11f99240a5690b38f0931f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Utils/JsonYG.cs using Guid(d49552a7a11f99240a5690b38f0931f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '951fc3c07532be1b529e155d1a143f3f') in 0.0043521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs
+  artifactKey: Guid(6132d879f2397684b959bc3c5bb8c3f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs using Guid(6132d879f2397684b959bc3c5bb8c3f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b3471ee40273c6fded7384558a56b68') in 0.0030009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ArchivingBuild.cs
+  artifactKey: Guid(8ae2063ae9af1c0418943542136f4ff1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ArchivingBuild.cs using Guid(8ae2063ae9af1c0418943542136f4ff1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acf98cd0753102592adf0717a2605c10') in 0.0038188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/SyncInitSDK.cs
+  artifactKey: Guid(aba1b8d40fa17024cbd11253dae65fc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/SyncInitSDK.cs using Guid(aba1b8d40fa17024cbd11253dae65fc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0f7ec432250159ef2c98892d88f501d') in 0.0042739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WebGLTemplates/YandexGames/index.html
+  artifactKey: Guid(4723168e9fbaa674ba57fe2bcc045196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/YandexGames/index.html using Guid(4723168e9fbaa674ba57fe2bcc045196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bf2406248d4892e4a4d55ccac593661') in 0.0025635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PluginYourGames/Example/Prefabs/SceneButton.prefab
+  artifactKey: Guid(0274f1af22a91304ca0eae3ee2d0a8b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Prefabs/SceneButton.prefab using Guid(0274f1af22a91304ca0eae3ee2d0a8b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16c5fcaded81d1a0323195e9821ea763') in 0.1036157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/TextStyles.cs
+  artifactKey: Guid(60b0cb2c09ff5f74383fb91deafab973) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/TextStyles.cs using Guid(60b0cb2c09ff5f74383fb91deafab973) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec6706ec40e979b77ed7bd5e131312df') in 0.0056089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/GameplayAPI.cs
+  artifactKey: Guid(643f0f381e971aa4688989303acf5a09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/GameplayAPI.cs using Guid(643f0f381e971aa4688989303acf5a09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71b89bb3a1170522ab9b8ce8856d3bf4') in 0.0043169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/PixelRatioMobile.cs
+  artifactKey: Guid(691640dfa19eb474584f9fafac46a85d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/PixelRatioMobile.cs using Guid(691640dfa19eb474584f9fafac46a85d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b7f25664fa2ef3c5af28699797abed0') in 0.0033958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Example/Sprites/PanelTextureYG.png
+  artifactKey: Guid(3e0646a1d1e3f2c47bbce66b56ba3282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Sprites/PanelTextureYG.png using Guid(3e0646a1d1e3f2c47bbce66b56ba3282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa8bbb67b4e0a4c74fe7224e46e0c2a8') in 0.0936588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css
+  artifactKey: Guid(9e924af503edf11458a89cdc15f16aca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css using Guid(9e924af503edf11458a89cdc15f16aca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fce2d26798e421e4ec900fe1de2d236f') in 0.0028444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PluginYourGames/Example/Content/Font/Disket-mono_EULA .pdf
+  artifactKey: Guid(5b105298960967543a0096821016605b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Content/Font/Disket-mono_EULA .pdf using Guid(5b105298960967543a0096821016605b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7340483ba80b0fd32f0af7aa43c26ff') in 0.0298933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Settings.png
+  artifactKey: Guid(9925063d15d384e4ca964d01350a243b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Settings.png using Guid(9925063d15d384e4ca964d01350a243b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28e9fe81155c5f81bea858070de69c38') in 0.0076719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/BasicSettings.cs
+  artifactKey: Guid(6d9aa0da860368c4f9c4f6431f8c823b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/BasicSettings.cs using Guid(6d9aa0da860368c4f9c4f6431f8c823b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '486170068f455128a7c8c656b0e25380') in 0.00545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/Editor/VersionControlWindow.cs
+  artifactKey: Guid(be41aa05c1ef3534fb443308f141086b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/Editor/VersionControlWindow.cs using Guid(be41aa05c1ef3534fb443308f141086b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dfe79039a313ab9ed5055d899c07a7f') in 0.0035741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity
+  artifactKey: Guid(e49bf7e58fdb4db4c9df51f0ddb8f327) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scenes/ExampleYG2.unity using Guid(e49bf7e58fdb4db4c9df51f0ddb8f327) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '538a462b7a8635c4237aea34d4432c17') in 0.0131244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b4b7cf05823413253abd5c8a2767dfb') in 0.0269227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/InitPlugin.cs
+  artifactKey: Guid(82a9fa95dfdb63c4aa967e8bb5099c79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/InitPlugin.cs using Guid(82a9fa95dfdb63c4aa967e8bb5099c79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ee4bd85396e9a8e0db0d86100a8a2a5') in 0.0033044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/IPlatformsYG2.cs
+  artifactKey: Guid(a960448b8b6eea5419318dd74198de1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/IPlatformsYG2.cs using Guid(a960448b8b6eea5419318dd74198de1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aeeb78a636ec73d539739549a7ebac5f') in 0.0036621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/Scenes/AllDemoScenes.cs
+  artifactKey: Guid(f26ff04bdeba23b44bb67277c6751819) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/Scenes/AllDemoScenes.cs using Guid(f26ff04bdeba23b44bb67277c6751819) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c62253abe91e668b7f0c6ab89feaad73') in 0.004042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15061fc75f75b0261f922a6e52bfff62') in 0.0524985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Editor/ServerInfoYG2.json
+  artifactKey: Guid(930931d108bea8949a7d1c11b8122bfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Editor/ServerInfoYG2.json using Guid(930931d108bea8949a7d1c11b8122bfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b9893b18b62f12e3ee3d564f81bedb2') in 0.0055071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Attributes/LabelYGAttribute.cs
+  artifactKey: Guid(fde912d7e07300649bb93b76bef76fbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Attributes/LabelYGAttribute.cs using Guid(fde912d7e07300649bb93b76bef76fbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca2468e3742ff96ebe4db24d43da4df1') in 0.0068991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/LogoFormat.cs
+  artifactKey: Guid(149818582ab8d7d41bd5ad1b58d8d8e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/LogoFormat.cs using Guid(149818582ab8d7d41bd5ad1b58d8d8e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76bcc6196774451cf864fc229d552093') in 0.0037524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/WindowGame.cs
+  artifactKey: Guid(368dcc54c1901234c83ab4f68d741705) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Basic/WindowGame.cs using Guid(368dcc54c1901234c83ab4f68d741705) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '080ac07af4dcd0f7fa3c21010010b036') in 0.0035444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs
+  artifactKey: Guid(7617ecd946ab4ed489c1cc3059b6a5a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs using Guid(7617ecd946ab4ed489c1cc3059b6a5a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e629a24c16ba671139ebcb7139e645b') in 0.0032218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WebGLTemplates/YandexGames/style.css
+  artifactKey: Guid(ac417be406a59a340bf7df6a62945424) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/YandexGames/style.css using Guid(ac417be406a59a340bf7df6a62945424) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31740f6511c116c0b107b4bca1f27886') in 0.0037928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/Editor/InfoYGEditorWindow.cs
+  artifactKey: Guid(2d0fc8927ccd6034899f20587d64c103) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/Editor/InfoYGEditorWindow.cs using Guid(2d0fc8927ccd6034899f20587d64c103) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a23b8a1a3d2c8259fd2a0e1c58f76bd2') in 0.0036163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/YandexGamePlatform.cs
+  artifactKey: Guid(4322622798075424fae33d5e7bbc21e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/YandexGamePlatform.cs using Guid(4322622798075424fae33d5e7bbc21e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2772e51487102c084424f2408f40b70f') in 0.0046465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/AdvCallingSimulation.cs
+  artifactKey: Guid(ce43b64c768f0f047a4ae19026c4dea2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/AdvCallingSimulation.cs using Guid(ce43b64c768f0f047a4ae19026c4dea2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec8cb00ba5ee601f3ad5a1d4af774f02') in 0.0033418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/PlatformEventsYG2.cs
+  artifactKey: Guid(9ef5f9984b9ce8a418aca2172f2fd7d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Other/PlatformEventsYG2.cs using Guid(9ef5f9984b9ce8a418aca2172f2fd7d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3003f387e3d67dd57ca1ad49e929d8d') in 0.0066771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Attributes/HeaderYGAttribute.cs
+  artifactKey: Guid(ec97f17c6e128614ba2adb892ec8e0f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Attributes/HeaderYGAttribute.cs using Guid(ec97f17c6e128614ba2adb892ec8e0f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1bc834bd3310d0fcc8e9a16f880c5b6') in 0.0035633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/Scenes/DemoSceneLoadButton.cs
+  artifactKey: Guid(3afc465fb3d0eda46a1b046fd8032fd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Scripts/Scenes/DemoSceneLoadButton.cs using Guid(3afc465fb3d0eda46a1b046fd8032fd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8615e662f8a8ec8dd67fef3975be5e7f') in 0.0035936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/Editor/UpdatePluginYGTemp.txt
+  artifactKey: Guid(3aebe6c9a1e86b949b110f3b4d2dc7e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Server/Editor/UpdatePluginYGTemp.txt using Guid(3aebe6c9a1e86b949b110f3b4d2dc7e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db1a34dc39dc95dd709044254c5981d7') in 0.0060954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Example/Prefabs/DemoButtonYG.prefab
+  artifactKey: Guid(4ee6e0cb4552da248a6fe59b7a75c31b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Prefabs/DemoButtonYG.prefab using Guid(4ee6e0cb4552da248a6fe59b7a75c31b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd209a305c4f842e3e9e43c04fa03c98c') in 0.0181497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/Editor/AsmdefPlatformCreate.txt
+  artifactKey: Guid(e51e14c87051abd488156a41f0dc4152) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/Platform/Editor/AsmdefPlatformCreate.txt using Guid(e51e14c87051abd488156a41f0dc4152) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4823c0b3af6b590b430ba24e41ad36a3') in 0.0042379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Attributes/NestedYGAttribute.cs
+  artifactKey: Guid(569ac51cc0abd0f44b7995c0803c15e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Attributes/NestedYGAttribute.cs using Guid(569ac51cc0abd0f44b7995c0803c15e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e65f1ab766095bd072ea45fd331a29d0') in 0.0034059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/InfoYGReferences.cs
+  artifactKey: Guid(546662b58d3e8a94588e419822b7eb36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/InfoYGReferences.cs using Guid(546662b58d3e8a94588e419822b7eb36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45baaeb6c2a375e2ccb50e27852bc44b') in 0.0078779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Example/Content/Materials/DebugViewing Shadow.mat
+  artifactKey: Guid(605d785cb7177ed4e959fe3fe1912fa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Example/Content/Materials/DebugViewing Shadow.mat using Guid(605d785cb7177ed4e959fe3fe1912fa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '019e8d6d97897d8983d8a1478c131162') in 0.0058444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PluginYourGames/Editor/ModulesListYG2.txt
+  artifactKey: Guid(bf8703b367f80dc4e95c4993dbf0a656) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Editor/ModulesListYG2.txt using Guid(bf8703b367f80dc4e95c4993dbf0a656) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0033098 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/pluginyourgames/editor/moduleslistyg2.txt in SourceAssetDB has modification time of '2024-11-26T09:41:50.7987242Z' while content on disk has modification time of '2024-11-26T09:42:05.9397996Z'
+  ERROR: Build asset version error: assets/pluginyourgames/editor/moduleslistyg2.txt in SourceAssetDB has modification time of '2024-11-26T09:41:50.7987242Z' while content on disk has modification time of '2024-11-26T09:42:05.9397996Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs
+  artifactKey: Guid(a65f79c6642d5424a83a255a036bb2f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs using Guid(a65f79c6642d5424a83a255a036bb2f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a80e2fe7ebfb3e0f0d95a14e568984b') in 0.00653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.745 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 2850ms
+	BeginReloadAssembly (441ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (131ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1140ms)
+		LoadAssemblies (925ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (390ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1102ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.8 MB). Loaded Objects now: 7400.
+Memory consumption went from 161.9 MB to 157.0 MB.
+Total: 10.387500 ms (FindLiveObjects: 0.843600 ms CreateObjectMapping: 1.379600 ms MarkObjects: 5.303200 ms  DeleteObjects: 2.860200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
